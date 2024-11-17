@@ -10,7 +10,7 @@ class FindThePowerOfKSizeSubarraysI {
         var n = nums.length;
         var resultPair = 0;
 
-        if (n == 1 && k == 1) {
+        if (k == 1) {
             return nums;
         }
 
